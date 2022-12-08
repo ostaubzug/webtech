@@ -1,0 +1,25 @@
+﻿#box1 {
+  background-color: red;
+  position: absolute;
+  top: 90px;
+  left: 100px;
+}
+ 
+img{
+  width: 60%;
+  height: auto;
+}
+
+section {
+  display: block;
+}
+
+/* 
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+} */
