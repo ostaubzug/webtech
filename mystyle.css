@@ -1,24 +1,20 @@
 @font-face {
-  font-family: 'Montserrat';
-  src: url('fonts/Montserrat-VariableFont_wght.ttf') format('truetype'); /* Passe den Pfad zur Datei entsprechend an */
-
+  font-family: "Montserrat";
+  src: url("fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 
 body {
   font-family: "Montserrat", sans-serif;
-  color: blue;
 }
 
-.p {
-  font-family: "Montserrat", sans-serif;
-  color: aqua;
-}
-    
-
-.h1 {
+.w3-mobile {
   font-family: "Montserrat", sans-serif;
 }
 
-.h2 {
-  color: hsl(0, 0%, 0%);
-  margin-left: 20px;
+#navigation {
+  margin-bottom: 100px;
 }
+
+/* #information {
+  margin-top: 50px;
+} */
