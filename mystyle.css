@@ -11,10 +11,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.villaImage {
+  /* width: 500px; */
+}
+
 #navigation {
   margin-bottom: 100px;
 }
-
-/* #information {
-  margin-top: 50px;
-} */
