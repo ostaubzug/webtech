@@ -70,6 +70,34 @@
 
     <section id="formular">
       <!--Formular-->
+      <h2>Buchungsformular</h2>
+
+      <form
+        class="w3-container"
+        action=""
+        method="post"
+        onsubmit="return isValid()"
+      >
+        <label>Startdatum: </label>
+        <input class="w3-input" type="date" id="dateStart" /><br />
+
+        <label>Enddatum: </label>
+        <input class="w3-input" type="date" id="dateEnd" /><br />
+
+        <label>Name </label>
+        <input class="w3-input" type="text" id="name" /><br />
+
+        <label>E-Mail </label>
+        <input class="w3-input" type="email" id="email" /><br />
+
+        <button class="w3-button" type="submit">Senden</button>
+      </form>
+
+      <script>
+        function isValid() {
+          return true;
+        }
+      </script>
     </section>
     <!-- Navigation erstellen mit w3.cs-->
 
